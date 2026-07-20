@@ -1,6 +1,11 @@
-function Dashboard(){
+function Dashboard() {
     return (
-        <h1> Dashboard</h1>
-    )
+        <div>
+            <h2>Dashboard</h2>
+            <hr />
+            <h4>Login Successful 🎉</h4>
+        </div>
+    );
 }
+
 export default Dashboard;

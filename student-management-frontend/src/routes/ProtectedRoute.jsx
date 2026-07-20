@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Navigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
+import Loader from "../components/Loader";
 
 function ProtectedRoute({ children }) {
 
@@ -9,7 +10,7 @@ function ProtectedRoute({ children }) {
         loading
     } = useContext(AuthContext);
       if(loading) {
-        return <h1>loading...</h1>;
+        return <Loader />;
     }
     if(!user) {
         return <Navigate to="/login" />;
