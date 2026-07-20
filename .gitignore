@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database
+db.sqlite3
+
+# Media and uploads
+media/
+
+# Virtual environment
+venv/
+ENV/
+env/
+.env
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Frontend files
+student-management-frontend/node_modules/
+student-management-frontend/dist/
+student-management-frontend/.env
